@@ -4,7 +4,7 @@ import MarketingApp from "./components/MarketingApp";
 export default () => {
     return (
         <div>
-            <h1>Hi There! It's a container app!</h1>
+            <h1>Hi There! It's a container app! Nice to see you here!</h1>
             <hr/>
             <MarketingApp />
         </div>
