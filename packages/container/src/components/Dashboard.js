@@ -1,4 +1,4 @@
-import { mount } from 'auth/AuthApp';
+import { mount } from 'dashboard/DashboardApp';
 import React, { useRef, useEffect } from 'react';
 
 const AuthApp = () => {
