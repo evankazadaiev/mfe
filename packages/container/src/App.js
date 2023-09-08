@@ -37,7 +37,7 @@ export default () => {
                         <Route path="/auth">
                             <AuthApp onSignIn={() => setIsSignedIn(true)}/>
                         </Route>
-                        <Route path="/dashbaord">
+                        <Route path="/dashboard">
                             {!isSignedIn && (<Redirect to="/"/>)}
                             <DashboardLazy />
                         </Route>
